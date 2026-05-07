@@ -1,0 +1,35 @@
+{
+  "name": "ceneco-compass-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:minimal": "cross-env CENECO_THEME=minimal next dev",
+    "dev:industrial": "cross-env CENECO_THEME=industrial next dev",
+    "dev:corporate": "cross-env CENECO_THEME=corporate next dev",
+    "build": "next build",
+    "build:minimal": "cross-env CENECO_THEME=minimal next build",
+    "build:industrial": "cross-env CENECO_THEME=industrial next build",
+    "build:corporate": "cross-env CENECO_THEME=corporate next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "framer-motion": "^11.15.0",
+    "next": "^14.2.30",
+    "next-intl": "^3.26.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.4",
+    "@types/node": "^22.10.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^4.1.4",
+    "typescript": "^5.7.2"
+  }
+}
